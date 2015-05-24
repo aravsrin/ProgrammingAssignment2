@@ -1,7 +1,7 @@
-## Set of functions to 
-##  1. That create a matrix that can cache inverse calcuated by solve(..)
-##  2. Another function that looksup the cache to see if inverse is
-##     present, if so returns the cached value. If not, calculates the
+## Set of functions that,
+##  1. Creates a matrix which can cache inverse calcuated by solve(..)
+##  2. Looksup the cache to see if inverse is already calculated for
+##     a given matrix, if so returns the cached value. If not, calculates the
 ##     inverse using solve(..) and stores it in the cache.
 
 ## makeCacheMatrix
